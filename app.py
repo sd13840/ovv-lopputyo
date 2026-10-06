@@ -1,1 +1,2 @@
-print("Hello Git!")
+name = input("Mikä sinun nimesi on? ")
+print(f"Hei {name}!")
