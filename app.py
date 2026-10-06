@@ -1,2 +1,8 @@
-name = input("Mikä sinun nimesi on? ")
-print(f"Hei {name}!")
+language = input("Valitse kieli (fi/en): ").lower()
+
+if language == "en":
+    name = input("What is your name? ")
+    print(f"Hello {name}!")
+else:
+    name = input("Mikä sinun nimesi on? ")
+    print(f"Hei {name}!")
