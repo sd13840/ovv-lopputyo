@@ -5,4 +5,4 @@ if language == "en":
     print(f"Welcome {name}!")
 else:
     name = input("Mikä sinun nimesi on? ")
-    print(f"Tervetuloo {name}!")
+    print(f"Tervetuloa {name}!")
